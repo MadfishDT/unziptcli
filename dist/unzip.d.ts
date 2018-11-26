@@ -19,7 +19,7 @@ export interface InstallResult {
     code: number;
     message: string;
 }
-export default class UnZipModule {
+export declare class UnZipModule {
     private zipfilePath;
     private installDir;
     private isCanceled;

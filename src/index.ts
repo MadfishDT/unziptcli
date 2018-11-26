@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import UnZipModule from './unzip';
+import { UnZipModule } from './unzip';
 import ProgressBar from 'progress';
 
 var args = process.argv;

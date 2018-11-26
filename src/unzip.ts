@@ -25,7 +25,7 @@ export interface InstallResult {
     message: string,
 };
 
-export default class UnZipModule {
+export class UnZipModule {
 
     private zipfilePath: string ='';
     private installDir: string ='';

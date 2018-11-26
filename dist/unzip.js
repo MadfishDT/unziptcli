@@ -182,4 +182,4 @@ class UnZipModule {
         }, initDir);
     }
 }
-exports.default = UnZipModule;
+exports.UnZipModule = UnZipModule;
