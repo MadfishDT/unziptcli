@@ -1,0 +1,33 @@
+{
+  "name": "unziptcli",
+  "version": "0.0.1",
+  "description": "unzipt cli version for nodejs, just using unzipt and nodejs basic modules fs, path",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MadfishDT/unziptcli.git"
+  },
+  "keywords": [
+    "unzip",
+    "cli",
+    "nodejs",
+    "typescript"
+  ],
+  "author": "MadfishDT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MadfishDT/unziptcli/issues"
+  },
+  "homepage": "https://github.com/MadfishDT/unziptcli#readme",
+  "dependencies": {
+    "progress": "^2.0.1",
+    "unzipt": "0.0.3"
+  },
+  "devDependencies": {
+    "@types/progress": "^2.0.1",
+    "@types/node": "^10.12.10"
+  }
+}
